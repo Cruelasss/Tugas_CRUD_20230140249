@@ -1,4 +1,3 @@
-Ini adalah versi final yang sudah saya rapikan total. Saya sudah memperbaiki format blok kode JSON, merapikan hierarki heading, dan memastikan tata letaknya bersih agar langsung terlihat profesional saat dibuka di GitHub.
 
 Silakan salin teks di bawah ini ke file `README.md` Anda:
 
@@ -185,14 +184,11 @@ Semua response API dibungkus menggunakan kelas `WebResponse<T>` dengan format:
 
 1. Tampilan Utama (Daftar KTP)
 
-https://drive.google.com/file/d/1HH_UVRhLCDqLb0VOISvw_ku_w5S4H_yr/view?usp=sharing
 
 2. Form Tambah & Validasi Error
-https://drive.google.com/drive/folders/10aWvWDcBPXwZSRvJ4mbwTcoZfEiDaMey?usp=sharing
+
 
 3. Notifikasi Berhasil (Feedback)
-https://drive.google.com/drive/folders/10aWvWDcBPXwZSRvJ4mbwTcoZfEiDaMey?usp=sharing
-
 ---
 
 © 2026 - Tugas Praktikum Pemrograman Server-side
