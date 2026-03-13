@@ -1,8 +1,13 @@
+Ini adalah versi final yang sudah saya rapikan total. Saya sudah memperbaiki format blok kode JSON, merapikan hierarki heading, dan memastikan tata letaknya bersih agar langsung terlihat profesional saat dibuka di GitHub.
+
+Silakan salin teks di bawah ini ke file `README.md` Anda:
+
+---
 
 ```markdown
 # Tugas Praktikum: CRUD Manajemen KTP
-**Nama:** Choirul Amir Siregar
-**NIM:** 20230140249 
+**Nama:** Choirul Amir Siregar  
+**NIM:** 20230140249  
 **Repositori:** Tugas_CRUD_20230140249
 
 ---
@@ -30,6 +35,7 @@ Aplikasi ini merupakan sistem manajemen data KTP berbasis web yang dibangun meng
 1. **Konfigurasi Database:**
    Buat database bernama `spring` di MySQL dan sesuaikan `application.properties`:
    ```properties
+   spring.datasource.url=jdbc:mysql://localhost:3306/spring
    spring.datasource.username=root
    spring.datasource.password=your_password
 
@@ -39,6 +45,8 @@ Aplikasi ini merupakan sistem manajemen data KTP berbasis web yang dibangun meng
 Jalankan file `TugasCrudNimApplication.java` dari IDE Anda (IntelliJ/VS Code).
 3. **Akses Website:**
 Buka browser dan arahkan ke: `http://localhost:8080`
+
+---
 
 ## 📡 Dokumentasi API (Endpoints)
 
@@ -50,16 +58,16 @@ Semua response API dibungkus menggunakan kelas `WebResponse<T>` dengan format:
 | **POST** | `/ktp` | Menambah data KTP baru |
 | **GET** | `/ktp` | Mengambil seluruh daftar KTP |
 | **GET** | `/ktp/{id}` | Mengambil detail KTP berdasarkan ID |
-| **PUT** | `/ktp/{id}` | Memperbarui data KTP yang sudah ada |
+| **PUT** | `/ktp/{id}` | Memperbarui data KTP berdasarkan ID |
 | **DELETE** | `/ktp/{id}` | Menghapus data KTP dari database |
 
-📡 Dokumentasi API & Hasil Pengujian
-Semua request menggunakan format JSON dan mengembalikan response standar melalui WebResponse<T>.
+### 🚀 Hasil Pengujian API
 
-1. Tambah Data KTP (POST /ktp)
-Request Body:
+#### 1. Tambah Data KTP (`POST /ktp`)
 
-JSON
+**Request Body:**
+
+```json
 {
     "nomorKtp": "1234567900",
     "namaLengkap": "Budi Ahmado",
@@ -67,9 +75,12 @@ JSON
     "tanggalLahir": "1995-05-20",
     "jenisKelamin": "Laki-laki"
 }
-Response Body:
 
-JSON
+```
+
+**Response Body:**
+
+```json
 {
     "message": "Data KTP berhasil ditambahkan!",
     "status": "success",
@@ -82,10 +93,14 @@ JSON
         "jenisKelamin": "Laki-laki"
     }
 }
-2. Update Data KTP (PUT /ktp/{id})
-Request Body:
 
-JSON
+```
+
+#### 2. Update Data KTP (`PUT /ktp/{id}`)
+
+**Request Body:**
+
+```json
 {
     "nomorKtp": "1234567901",
     "namaLengkap": "Budi Ahmado",
@@ -93,9 +108,12 @@ JSON
     "tanggalLahir": "1995-05-20",
     "jenisKelamin": "Laki-laki"
 }
-Response Body:
 
-JSON
+```
+
+**Response Body:**
+
+```json
 {
     "message": "Data KTP berhasil diperbarui!",
     "status": "success",
@@ -108,10 +126,14 @@ JSON
         "jenisKelamin": "Laki-laki"
     }
 }
-3. Ambil Semua Data (GET /ktp)
-Response Body:
 
-JSON
+```
+
+#### 3. Ambil Semua Data (`GET /ktp`)
+
+**Response Body:**
+
+```json
 {
     "message": "Berhasil mengambil semua data KTP",
     "status": "success",
@@ -142,19 +164,25 @@ JSON
         }
     ]
 }
-4. Hapus Data KTP (DELETE /ktp/{id})
-Response Body:
 
-JSON
+```
+
+#### 4. Hapus Data KTP (`DELETE /ktp/{id}`)
+
+**Response Body:**
+
+```json
 {
     "message": "Data KTP dengan ID 6 berhasil dihapus",
     "status": "success",
     "data": null
 }
 
-## 📸 Screenshots
+```
 
-*(Lampirkan screenshot hasil praktikum kamu di sini)*
+---
+
+## 📸 Screenshots
 
 ### 1. Tampilan Utama (Daftar KTP)
 
@@ -170,3 +198,7 @@ JSON
 ```
 
 ---
+
+**Next Step:** Jangan lupa masukkan file gambar screenshot kamu ke dalam folder `img` agar gambar tersebut muncul di halaman GitHub. Apakah ada bagian lain yang ingin Anda tambahkan?
+
+```
