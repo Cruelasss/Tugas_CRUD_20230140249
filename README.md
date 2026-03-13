@@ -182,23 +182,19 @@ Semua response API dibungkus menggunakan kelas `WebResponse<T>` dengan format:
 
 ---
 
-## 📸 Screenshots
 
-### 1. Tampilan Utama (Daftar KTP)
+1. Tampilan Utama (Daftar KTP)
 
+https://drive.google.com/file/d/1HH_UVRhLCDqLb0VOISvw_ku_w5S4H_yr/view?usp=sharing
 
-### 2. Form Tambah & Validasi Error
+2. Form Tambah & Validasi Error
+https://drive.google.com/drive/folders/10aWvWDcBPXwZSRvJ4mbwTcoZfEiDaMey?usp=sharing
 
-### 3. Notifikasi Berhasil (Feedback)
+3. Notifikasi Berhasil (Feedback)
+https://drive.google.com/drive/folders/10aWvWDcBPXwZSRvJ4mbwTcoZfEiDaMey?usp=sharing
 
 ---
 
 © 2026 - Tugas Praktikum Pemrograman Server-side
-
-```
-
----
-
-**Next Step:** Jangan lupa masukkan file gambar screenshot kamu ke dalam folder `img` agar gambar tersebut muncul di halaman GitHub. Apakah ada bagian lain yang ingin Anda tambahkan?
 
 ```
